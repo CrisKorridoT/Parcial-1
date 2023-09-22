@@ -3,20 +3,20 @@ n2 = None
 n3 = None
 
 while n1 is None:
-    valor = int(input("Ingrese el primer número (mayor que 0 y menor que 259): "))
+    valor = float(input("Ingrese el primer número (mayor que 0 y menor que 259): "))
     if valor < 0 or valor > 259:
         print("Error: el valor ingresado no cumple con las condiciones.")
     else:
         n1 = valor
 while n2 is None:
-    valor = int(input("Ingrese el segundo número (mayor que 0 y menor que 259): "))
+    valor = float(input("Ingrese el segundo número (mayor que 0 y menor que 259): "))
     if valor < 0 or valor > 259:
         print("Error: el valor ingresado no cumple con las condiciones.")
     else:
         n2 = valor
 
 while n3 is None:
-    valor = int(input("Ingrese el tercer número (mayor que 0 y menor que 259): "))
+    valor = float(input("Ingrese el tercer número (mayor que 0 y menor que 259): "))
     if valor < 0 or valor > 259:
         print("Error: el valor ingresado no cumple con las condiciones.")
     else:
